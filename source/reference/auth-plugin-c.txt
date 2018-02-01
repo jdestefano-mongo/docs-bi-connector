@@ -10,18 +10,7 @@ C Authentication Plugin
    :depth: 1
    :class: singlecol
 
-.. versionadded:: 2.2
-
-The |bi| provides a MySQL authentication plugin which implements the
-client side of MongoDB-supported authentication mechanisms. The
-``mongosql_auth`` plugin allows you to use |bi| with a MongoDB
-instance running with authentication enabled without needing to
-generate your own SSL certificates for authentication.
-
-This plugin supports the following authentication mechanisms:
-
-* ``SCRAM-SHA-1``
-* ``PLAIN``
+.. include:: /includes/c-auth-intro.rst
 
 Supported Platforms
 -------------------
@@ -47,41 +36,7 @@ The plugin is built and tested on the following platforms:
 Installing the Plugin
 ---------------------
 
-Windows
-~~~~~~~
-
-#. Download the `MySQL 5.7.x installer
-   <https://dev.mysql.com/downloads/windows/installer/5.7.html>`_ and install the
-   products needed.
-
-#. Download the ``mongosql_auth`` plugin component `.msi installer
-   <https://github.com/mongodb/mongosql-auth-c/releases>`_ and install the
-   ``mongosql_auth`` plugin component.
-
-MacOS and Linux
-~~~~~~~~~~~~~~~
-
-#. Download ``mongosql_auth`` plugin library from  the
-   `releases page <https://github.com/mongodb/mongosql-auth-c/releases>`_.
-
-#. After downloading, move the file ``mongosql_auth.so`` to either:
-
-   - ``<mysql-home>/lib/plugin/`` directory. 
-
-     The default location of ``<mysql-home>`` varies by platform.
-
-     To discover the location of the plugin directory, run the
-     following at the command line:
-
-     .. code-block:: sh
-
-        mysql_config --plugindir
-
-   \- OR -
-
-   - A directory of your choice if you provide the
-     ``plugin-dir=<your-install-dir>`` option to your MySQL client. See
-     the :ref:`mysql client command example <mysql-example-command>`.
+To install the plugin, see :ref:`install-auth-c-plugin`.
 
 Using the Plugin for Authentication
 -----------------------------------

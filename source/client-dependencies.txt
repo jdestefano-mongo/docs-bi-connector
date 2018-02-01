@@ -1,6 +1,6 @@
-=============================
-Configure Client Dependencies
-=============================
+===============
+Install Plugins
+===============
 
 .. default-domain:: mongodb
 
@@ -13,4 +13,3 @@ Configure Client Dependencies
 
       /tutorial/install-auth-plugin-c
       /tutorial/install-auth-plugin-jdbc
-      /tutorial/create-system-dsn

@@ -52,6 +52,7 @@ New in Version 2.0
 
       /atlas-bi-connector
       Install BI Connector On Premises</installation>
+      /launch
       /client-applications
       /client-dependencies
       /schema-configuration

@@ -148,8 +148,9 @@ program: _shared
 name: ssl
 args: null
 description: |
-  Instructs {{program}} to use TLS/SSL when connecting to a
-  MongoDB instance.
+  Instructs {{program}} to use :abbr:`TLS (Transport Level Security)`/:abbr:`SSL
+  (Secure Sockets Layer)` when connecting to a MongoDB instance. By
+  default, TLS 1.2 is used.
 optional: true
 default: false
 ---

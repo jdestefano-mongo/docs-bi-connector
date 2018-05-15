@@ -337,12 +337,11 @@ name: sslMode
 directive: option
 args: <mode>
 description: |
-  .. versionadded:: 2.3
 
   Enable or disable :abbr:`TLS (Transport Level Security)`/:abbr:`SSL
   (Secure Sockets Layer)` for connections to :doc:`mongosqld
-  </reference/mongosqld>`. The argument to the ``sslMode`` option can
-  be one of the following:
+  </reference/mongosqld>`. By default, TLS 1.1 is used. The argument to
+  the ``sslMode`` option can be one of the following:
 
   .. list-table::
      :header-rows: 1

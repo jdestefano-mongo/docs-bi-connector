@@ -15,11 +15,17 @@ content: |
 
   To securely connect Tableau to the |bi-short|, a system
   :abbr:`DSN (Data Source Name)` configured to use the MongoDB ODBC
-  driver is required. To create a system DSN, follow the steps below:
-  
-  .. container:: nested-steps
+  driver is required. If you do not have a system DSN configured,
+  expand the following procedure and configure one:
 
-     .. include:: /includes/steps/create-system-dsn-auth.rst
+  .. accordion::
+
+     title: Create a System DSN
+     content: |
+
+       .. container:: nested-steps
+
+         .. include:: /includes/steps/create-system-dsn-auth.rst
 
 ---
 ref: start-tableau-windows

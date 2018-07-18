@@ -36,7 +36,8 @@ extensions = [
     'fasthtml',
     'tabs',
     'source_constants',
-    'xmlrole'
+    'xmlrole',
+    'accordion'
 ]
 
 templates_path = ['.templates']

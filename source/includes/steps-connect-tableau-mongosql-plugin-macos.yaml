@@ -16,14 +16,11 @@ content: |
   driver is required. If you do not have a system DSN configured,
   expand the following procedure and configure one:
 
-  .. accordion::
+  .. accordion:: Create a System DSN
 
-     title: Create a System DSN
-     content: |
+     .. container:: nested-steps
 
-       .. container:: nested-steps
-
-          .. include:: /includes/steps/create-system-dsn-auth-macos.rst
+        .. include:: /includes/steps/create-system-dsn-auth-macos.rst
 
 ---
 ref: start-tableau-macos

@@ -9,7 +9,7 @@ MongoDB Connector for BI
 About the |bi|
 --------------
 
-.. include:: /includes/fact-bi-enterprises.rst
+.. includes:: /includes/fact-bi-enterprises.rst
 
 TESTING THE BUILDER
 

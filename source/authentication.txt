@@ -41,7 +41,7 @@ and provide admin user credentials. The admin user credentials must be
 :manual:`authorized </core/authorization>` to view the superset of data
 you wish to query using the |bi-short|.
 
-.. tabs-auth::
+.. tabs-authentication::
 
    tabs:
      - id: uidpwd
@@ -313,6 +313,6 @@ and password), |ldap|, or Kerberos:
    .. toctree::
       :titlesonly:
 
-      /reference/auth-plugin-c
+      /reference/auth-plugin-d
       /reference/auth-plugin-jdbc
       /tutorial/kerberos

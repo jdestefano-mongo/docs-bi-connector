@@ -1,4 +1,5 @@
 name = "bi-connector"
+title = "MONGODB CONNECTOR FOR BI"
 
 [constants]
 bi-atlas-short = "BI Connector for Atlas"

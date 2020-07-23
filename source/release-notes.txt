@@ -32,7 +32,7 @@ New Features
 
 - :ref:`Database schemas <schema-configuration-ref>` are now
   case-sensitive.
-- Queries containing UNION can be fully pushed down.
+- Queries containing ``UNION`` can be fully pushed down.
 
 Bug Fix
 ~~~~~~~
